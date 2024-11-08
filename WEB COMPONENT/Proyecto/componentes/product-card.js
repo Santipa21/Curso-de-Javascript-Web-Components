@@ -26,7 +26,7 @@ this.img
 getStyles(){return `
       <style>
       :host {
-        --primary-background: #5a6cb2;
+        --primary-background: #3C3D37;
           width: 80%;
           max-width: 900px;
           min-width: 280px;
@@ -40,7 +40,7 @@ getStyles(){return `
           width: 900px;
           height: 600px;
           margin: 20px;
-          background-color: #fff;
+          background-color: #697565;
       }
       .container .imgBox {
           position: relative;
@@ -56,7 +56,7 @@ getStyles(){return `
           left: 20px;
           font-size: 8em;
           font-weight: 800;
-          color: #000;
+          color: #fff;
           content: 'Nike';
           opacity: 0.1;
       }
@@ -82,25 +82,25 @@ getStyles(){return `
           margin-bottom: 25px;
           font-size: 2.5em;
           line-height: 0.8em;
-          color: #444;
+          color: #ECDFCC;
       }
       .container .details h2 span {
           font-size: 0.4em;
           text-transform: uppercase;
           letter-spacing: 2px;
-          color: #999;
+          color: #fff;
       }
       .container .details p {
           max-width: 85%;
           margin-left: 15%;
           margin-bottom: 35px;
-          color: #333;
+          color: #ECDFCC;
           font-size: 15px;
       }
       .container .details h3 {
           float: left;
           font-size: 2.5em;
-          color: #a2a2a2;
+          color: #fff;
       }
       .container .details button {
           margin-top: 35px;
@@ -112,8 +112,9 @@ getStyles(){return `
           font-weight: 600;
           text-transform: uppercase;
           border-radius: 40px;
-          background-color: #5a6cb2;
+          background-color: #181C14;
           cursor: pointer;
+          border-color:#3C3D37;
       }
       @media (max-width: 1080px) {
           .container {
