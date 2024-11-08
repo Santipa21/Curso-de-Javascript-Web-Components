@@ -99,7 +99,7 @@ getStyles(){return `
       }
       .container .details h3 {
           float: left;
-          font-size: 2.5em;
+          font-size: 2.1em;
           color: #fff;
       }
       .container .details button {
@@ -133,7 +133,7 @@ getStyles(){return `
               text-align: center;
           }
          .container .imgBox:before {
-          font-size:8em;
+              font-size:4em;
       }
           .container .imgBox img {
               left: initial;
