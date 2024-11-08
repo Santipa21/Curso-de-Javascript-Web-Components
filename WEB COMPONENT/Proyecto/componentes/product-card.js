@@ -54,7 +54,7 @@ getStyles(){return `
           position: absolute;
           top: 20px;
           left: 20px;
-          font-size: 8em;
+          font-size:4em;
           font-weight: 800;
           color: #fff;
           content: 'Nike';
@@ -116,6 +116,10 @@ getStyles(){return `
           cursor: pointer;
           border-color:#3C3D37;
       }
+      .container .details button:hover {
+            color: #ECDFCC;
+            background-color: #3C3D37;
+      }
       @media (max-width: 1080px) {
           .container {
               height: auto;
@@ -128,6 +132,9 @@ getStyles(){return `
               height: auto;
               text-align: center;
           }
+         .container .imgBox:before {
+          font-size:8em;
+      }
           .container .imgBox img {
               left: initial;
               width: 100%;
